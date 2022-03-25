@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		107AD0D727EE5FB300E8B933 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AD0D627EE5FB300E8B933 /* Enums.swift */; };
+		107AD0D927EE600900E8B933 /* Musicians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AD0D827EE600900E8B933 /* Musicians.swift */; };
 		10E1147227E3BADB003B8E06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E1147127E3BADB003B8E06 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		107AD0D627EE5FB300E8B933 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		107AD0D827EE600900E8B933 /* Musicians.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musicians.swift; sourceTree = "<group>"; };
 		10E1146E27E3BADB003B8E06 /* OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOP; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E1147127E3BADB003B8E06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,9 +42,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		107AD0D427EE5F7200E8B933 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				107AD0D827EE600900E8B933 /* Musicians.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		107AD0D527EE5FA300E8B933 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				107AD0D627EE5FB300E8B933 /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		10E1146527E3BADB003B8E06 = {
 			isa = PBXGroup;
 			children = (
+				107AD0D527EE5FA300E8B933 /* Enums */,
+				107AD0D427EE5F7200E8B933 /* Classes */,
 				10E1147027E3BADB003B8E06 /* OOP */,
 				10E1146F27E3BADB003B8E06 /* Products */,
 			);
@@ -120,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107AD0D927EE600900E8B933 /* Musicians.swift in Sources */,
+				107AD0D727EE5FB300E8B933 /* Enums.swift in Sources */,
 				10E1147227E3BADB003B8E06 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
